@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "udtw-tg-bot"
+version = "0.1.0"
+description = ""
+authors = ["rebzzel <rebzzel@gmail.com>"]
+packages = [
+    {include = "udtw", from = 'src'}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+aiogram = "^2.22.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
